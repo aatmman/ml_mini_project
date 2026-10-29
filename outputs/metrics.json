@@ -1,0 +1,50 @@
+{
+    "best_model": "Decision Tree",
+    "models": {
+        "Linear Regression": {
+            "cv_r2_mean": 0.9428,
+            "cv_r2_std": 0.0205,
+            "test_mae": 0.1198,
+            "test_rmse": 0.2251,
+            "test_r2": 0.9664,
+            "best_params": "N/A (Standard OLS)"
+        },
+        "Decision Tree": {
+            "cv_r2_mean": 0.9756,
+            "cv_r2_std": 0.0231,
+            "test_mae": 0.0233,
+            "test_rmse": 0.1323,
+            "test_r2": 0.9884,
+            "best_params": {
+                "max_depth": 7,
+                "min_samples_leaf": 2,
+                "min_samples_split": 2
+            }
+        },
+        "Random Forest": {
+            "cv_r2_mean": 0.9794,
+            "cv_r2_std": 0.0141,
+            "test_mae": 0.0396,
+            "test_rmse": 0.1346,
+            "test_r2": 0.988,
+            "best_params": {
+                "max_depth": 8,
+                "min_samples_split": 2,
+                "n_estimators": 100
+            }
+        },
+        "AdaBoost": {
+            "cv_r2_mean": 0.9876,
+            "cv_r2_std": 0.0133,
+            "test_mae": 0.0253,
+            "test_rmse": 0.152,
+            "test_r2": 0.9847,
+            "best_params": {
+                "base_depth_max_depth": 4,
+                "learning_rate": 1.0,
+                "loss": "square",
+                "n_estimators": 200
+            }
+        }
+    }
+}

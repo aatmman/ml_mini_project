@@ -1,0 +1,117 @@
+{
+    "best_model_name": "Decision Tree",
+    "target": "Quality of Sleep",
+    "target_range": [
+        1.0,
+        10.0
+    ],
+    "features": [
+        "Gender",
+        "Age",
+        "Occupation",
+        "Sleep Duration",
+        "Physical Activity Level",
+        "Stress Level",
+        "BMI Category",
+        "Heart Rate",
+        "Daily Steps",
+        "Sleep Disorder",
+        "Systolic_BP",
+        "Diastolic_BP"
+    ],
+    "numeric_features": [
+        "Age",
+        "Sleep Duration",
+        "Physical Activity Level",
+        "Stress Level",
+        "Heart Rate",
+        "Daily Steps",
+        "Systolic_BP",
+        "Diastolic_BP"
+    ],
+    "categorical_features": [
+        "Gender",
+        "Occupation",
+        "BMI Category",
+        "Sleep Disorder"
+    ],
+    "categorical_options": {
+        "Gender": [
+            "Female",
+            "Male"
+        ],
+        "Occupation": [
+            "Accountant",
+            "Doctor",
+            "Engineer",
+            "Lawyer",
+            "Manager",
+            "Nurse",
+            "Sales Representative",
+            "Salesperson",
+            "Scientist",
+            "Software Engineer",
+            "Teacher"
+        ],
+        "BMI Category": [
+            "Normal",
+            "Obese",
+            "Overweight"
+        ],
+        "Sleep Disorder": [
+            "Insomnia",
+            "None",
+            "Sleep Apnea"
+        ]
+    },
+    "numeric_bounds": {
+        "Age": {
+            "min": 27.0,
+            "max": 59.0,
+            "mean": 42.18449197860963,
+            "default": 43.0
+        },
+        "Sleep Duration": {
+            "min": 5.8,
+            "max": 8.5,
+            "mean": 7.132085561497325,
+            "default": 7.2
+        },
+        "Physical Activity Level": {
+            "min": 30.0,
+            "max": 90.0,
+            "mean": 59.17112299465241,
+            "default": 60.0
+        },
+        "Stress Level": {
+            "min": 3.0,
+            "max": 8.0,
+            "mean": 5.385026737967914,
+            "default": 5.0
+        },
+        "Heart Rate": {
+            "min": 65.0,
+            "max": 86.0,
+            "mean": 70.16577540106952,
+            "default": 70.0
+        },
+        "Daily Steps": {
+            "min": 3000.0,
+            "max": 10000.0,
+            "mean": 6816.844919786096,
+            "default": 7000.0
+        },
+        "Systolic_BP": {
+            "min": 115.0,
+            "max": 142.0,
+            "mean": 128.55347593582889,
+            "default": 130.0
+        },
+        "Diastolic_BP": {
+            "min": 75.0,
+            "max": 95.0,
+            "mean": 84.64973262032086,
+            "default": 85.0
+        }
+    }
+}

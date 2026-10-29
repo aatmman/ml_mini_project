@@ -1,0 +1,5 @@
+Model,CV_R2_Mean,CV_R2_Std,Test_MAE,Test_RMSE,Test_R2,Best_Parameters
+Linear Regression,0.9428,0.0205,0.1198,0.2251,0.9664,N/A (Standard OLS)
+Decision Tree,0.9756,0.0231,0.0233,0.1323,0.9884,"{'max_depth': 7, 'min_samples_leaf': 2, 'min_samples_split': 2}"
+Random Forest,0.9794,0.0141,0.0396,0.1346,0.988,"{'max_depth': 8, 'min_samples_split': 2, 'n_estimators': 100}"
+AdaBoost,0.9876,0.0133,0.0253,0.152,0.9847,"{'base_depth_max_depth': 4, 'learning_rate': 1.0, 'loss': 'square', 'n_estimators': 200}"
